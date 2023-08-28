@@ -83,6 +83,9 @@ img{
 @-webkit-keyframes slide-left{0%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:translateX(-100px);transform:translateX(-100px)}}@keyframes slide-left{0%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:translateX(-100px);transform:translateX(-100px)}}
 
 
+
+
+
 #about_section{
 /* border: 2px solid red; */
 display: flex;
@@ -91,29 +94,38 @@ align-items: center;
 margin-top: 10px;
 }
 
+.about_me_pic{
+    width: 450px;
+    }
+    
+
 #about_me_first_div{
     /* border: 2px solid blue; */
-    
+    overflow: hidden;
+    margin-top: 60px;
 }
-.add_size{
-    font-size: 2em;
-    margin-right: 10px;
+
+#about_section ul{
+
 }
 
 #about_section ul li{
-   /* border: 2px solid red; */
-      margin-top: 10px;
-      display: flex;
-    align-items: center;
-
-    width: 15%;
-}
-
-#about_me_second_div{
     /* border: 2px solid rebeccapurple; */
+   margin-top: 10px;
+      display: flex;
+      align-items: center;
+      height: 70px;
+      margin-bottom: -25px;
+
 }
 
-.about_me_pic{
-    
-width: 450px;
+ .Skill_pics{
+     height: 40px;
+    width: 40px;
+    margin-top: 2px;
+    margin-right: 10px;
+
 }
+
+.fade-in{-webkit-animation:fade-in 4s cubic-bezier(.39,.575,.565,1.000) infinite both;animation:fade-in 4s cubic-bezier(.39,.575,.565,1.000) infinite both}
+@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
